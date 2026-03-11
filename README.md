@@ -159,7 +159,7 @@ Key PostgreSQL features used:
 ## Project Structure
 sales-data-pipeline
 │
-├── data
+├── datasets
 │   ├── customers.csv
 │   ├── sales.csv
 │   └── marketing.csv
