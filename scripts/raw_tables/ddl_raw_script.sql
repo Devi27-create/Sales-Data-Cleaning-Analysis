@@ -21,7 +21,7 @@ CREATE TABLE raw_cust(
 	city VARCHAR(50),
 	state VARCHAR(100),
 	country VARCHAR(50)
-)
+);
 
 -- =========================
 -- Raw Sales
