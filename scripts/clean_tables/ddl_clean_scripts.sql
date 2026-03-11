@@ -133,17 +133,14 @@ SELECT
 	
     COALESCE(clicks, 0) AS clicks,
 	
-    COALESCE(
-		NULLIF(
-			NULLIF(
-				NULLIF(impressions,'many'),
-			'') ,
-		'-1')::INT,
-	0) AS impressions,
+    CASE
+		WHEN impressions IN ('many','', '-1') THEN 0
+        ELSE impressions::INT
+    END AS impressions,
     
     -- Flagging impressions
     CASE
-        WHEN impressions = 'many' OR impressions = '' THEN 'invalid'
+        WHEN impressions IN ('many','') THEN 'invalid'
         WHEN impressions = '-1' THEN 'missing'
         ELSE 'valid'
     END AS impressions_flag
