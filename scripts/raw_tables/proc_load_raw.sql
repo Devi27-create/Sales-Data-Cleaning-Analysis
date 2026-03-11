@@ -56,7 +56,7 @@ BEGIN
     -----------------------------
 
     COPY raw_cust
-	  FROM '/data/customers.csv'
+	  FROM '/datasets/customers.csv'
 	  DELIMITER ','
 	  CSV HEADER;
 
@@ -93,7 +93,7 @@ BEGIN
     -----------------------------
 
     COPY raw_sales
-	  FROM '/data/sales.csv'
+	  FROM '/datasets/sales.csv'
 	  DELIMITER ','
 	  CSV HEADER;
 
@@ -130,7 +130,7 @@ BEGIN
     -----------------------------
 
     COPY raw_mark
-	  FROM '/data/marketing.csv'
+	  FROM '/datasets/marketing.csv'
 	  DELIMITER ','
 	  CSV HEADER;
 
