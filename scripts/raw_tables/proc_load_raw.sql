@@ -101,11 +101,11 @@ BEGIN
     RAISE NOTICE 'raw_sales table loaded. Time taken: % seconds', EXTRACT(EPOCH FROM end_time - start_time);
 
     -- =========================
-    -- Markrting Data Raw
+    -- Marketing Data Raw
     -- =========================
 	
     RAISE NOTICE '----------------------------------------------------------------------------------';
-    RAISE NOTICE 'Loading Markrting Raw Table';
+    RAISE NOTICE 'Loading Marketing Raw Table';
     RAISE NOTICE '----------------------------------------------------------------------------------';
 
     start_time := clock_timestamp();
