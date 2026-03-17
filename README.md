@@ -156,8 +156,9 @@ Key PostgreSQL features used:
 
 - data quality flagging
 
-## Project Structure
-sales-data-pipeline
+## Project Structure 
+
+sales-data-cleaning_&_analytics_pipeline/
 │
 ├── datasets
 │   ├── customers.csv
