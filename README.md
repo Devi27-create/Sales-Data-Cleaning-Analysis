@@ -6,9 +6,9 @@ This project demonstrates a structured data pipeline built in PostgreSQL that in
 
 The pipeline follows a multi-layered architecture commonly used in modern data warehouses.
 
-Pipeline flow:
+***Pipeline flow:***
 
-CSV Files → Raw Layer → Clean Layer → Business Layer
+`CSV Files → Raw Layer → Clean Layer → Business Layer`
 
 Each layer has a specific responsibility to ensure data quality, consistency, and usability for analytics.
 
