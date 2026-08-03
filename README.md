@@ -202,18 +202,3 @@ This project showcases several data engineering practices:
 - SQL performance-friendly ingestion
 
 - Analytics-ready data modeling
-
-
-## Future Improvements
-
-Potential extensions for this project include:
-
-- Incremental data loading
-
-- Data quality audit tables
-
-- Additional business metrics
-
-- BI dashboard integration
-
-- Scheduling pipeline execution
