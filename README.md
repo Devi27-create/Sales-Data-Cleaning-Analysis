@@ -69,7 +69,7 @@ The clean layer standardizes and validates raw data before it is used for analyt
 
 - cl_mark: cleaned marketing campaign data
 
-Procedure
+**Procedure**
 
 sales_clean_dataset()
 
